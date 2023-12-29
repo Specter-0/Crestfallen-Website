@@ -1,0 +1,393 @@
+/**
+* {
+    outline: 1px solid red;
+}
+*/
+
+
+@font-face {
+    font-family: berylium;
+    src: url(../fonts/berylium/berylium\ bd.ttf);
+}
+
+@font-face {
+    font-family: ATCKrueger;
+    src: url(../fonts/ATCKrueger/ATCKrueger.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Pixel;
+    src: url(../fonts/pixel/pixel.ttf);
+}
+
+body{
+    min-height: 450vh;
+    margin: 0;
+    padding: 0; 
+    font-family: "berylium", "Comic Sans MS", "Comic Sans", cursive;
+    background: linear-gradient(rgb(113, 54, 34), rgb(113, 54, 34), rgb(23, 24, 24));
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+   
+    color: white;
+    box-shadow: 0px 20px 20px rgb(103, 44, 24)
+}
+
+footer ul {
+    display: flex;
+    padding: 0px;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.credits {
+    flex-flow: column wrap;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.credits li {
+    padding: 5px;
+}
+
+.credits strong{
+    font-size: 80px;
+    color: lightblue;
+    border-bottom-style: solid; 
+    border-color: gray;
+    border-width: 4px;
+}
+
+.creditsPage {
+    flex-flow: column;
+    width: 100%;
+    height: 730vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A40239;
+    text-align: center;
+    font-size: 100px;
+    font-family: Pixel;
+}
+
+.levelUp {
+    cursor: pointer;
+}
+
+.toTop {
+    position: absolute;
+    top: 3060px;
+    left: 695px;
+    filter: blur(0.5px);
+}
+
+.toTop:hover {
+    filter: brightness(500%);
+}
+
+.toTop span {
+    cursor: pointer;
+    perspective: 1000px;
+    color: gray;
+    width: 0;
+	height: 0;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-bottom: 40px solid #555;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.flip-box {
+    perspective: 1000px;
+}
+
+.flip-box-front, .flip-box-back {
+    transition: transform 0.6s ease-in-out;
+    position: absolute;
+}
+
+.BgImage {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    z-index: -10;
+    box-shadow: 0px 10px 100px rgb(50, 254, 144)
+}
+
+.Video {
+    position: absolute;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.Video video{
+    pointer-events: none;
+    scale: 56%;
+    z-index: 10;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.8);
+}
+
+.header {
+    cursor: pointer;
+    color: rgb(223, 255, 254);
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    background: linear-gradient(0.25turn, rgba(153, 84, 74, 0.8), rgba(123, 64, 44, 0.7));
+    box-shadow: 0px 0px 16px rgba(0 ,0 ,0 , 0.9);
+}
+
+.header a {
+    color: rgb(223, 255, 254);
+}
+
+.header a:hover {
+    color: white;
+}
+
+.header li:hover {
+    color: white;
+    scale: 105%;
+}
+
+.header img:hover {
+    filter: saturate(10%);
+    scale: 105%;
+}
+
+.header ul {
+    white-space: nowrap;
+    margin: 12px;
+    list-style: none;
+    font-size: 33px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header ul li{
+    margin: 0 15px;
+}
+
+.Crestfallen {
+    padding-left: 10px;
+    width: 170px;
+}
+
+.Crestfallen:hover {
+    filter: saturate(10%);
+    scale: 105%;
+}
+
+.buyButton {
+    margin-top: auto;
+}
+
+.bigButton {
+    text-decoration: none;
+    left: 485px;
+    top: 770px;
+    text-align: center;
+    font-family: "Pixel";
+    font-size: 60px;
+    color: white;
+    position: absolute;
+}
+
+.bigButton p{
+    top: -40px;
+    right: 95px;
+    color: white;
+    position: absolute;
+}
+
+.info-title {
+    position: absolute;
+}
+
+.info-title h1 {
+    font-family: pixel;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 90px;
+    color: rgb( 130, 130, 130);
+}
+
+.info-title h1::before {
+    background: linear-gradient(to right, rgba(164,2,57,0), rgba(0, 100, 100, 0.5));
+    right: 0.25em;
+    margin-left: -50%;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+    line-height: 4.5em;
+    font-weight: initial;
+}
+
+.info-title h1::after {
+    background: linear-gradient(to left, rgba(164,2,57,0), rgba(0, 100, 100, 0.5));
+    left: 0.25em;
+    margin-right: -50%;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+    line-height: 4.5em;
+    font-weight: initial;
+}
+
+.info-body {
+    width: 870px;
+    position: absolute;
+    top: 1030px;
+    right: 250px;
+    font-family: pixel;
+    line-height: 30px;
+}
+
+.info-body p {
+    flex-flow: column wrap;
+    text-align: start;
+    font-size: 25px;
+    color: rgb(225, 225, 225);
+}
+
+.info-body ul {
+    padding-right: 100px;
+    column-count: 2;
+    list-style: none;
+    flex-flow: column wrap;
+    text-align: start;
+    font-size: 25px;
+    color: rgb(225, 225, 225);
+} 
+
+.info-body li {
+    margin-bottom: 30px;
+    display: list-item;
+} 
+
+.info-body strong {
+    color: green;
+}
+
+.info-body video {
+    max-width: 350px;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.75);
+}
+
+.FAQ-body {
+    width: 700px;
+    position: absolute;
+    top: 2230px;
+    right: 420px;
+    font-family: pixel;
+    line-height: 30px;
+}
+
+.FAQ-body p {
+    flex-flow: column wrap;
+    text-align: start;
+    font-size: 25px;
+    color: rgb(225, 225, 225);
+}
+
+.FAQ-body ul {
+    text-indent: 10px;
+    padding-top: 35px;
+    column-count: 1;
+    list-style: none;
+    flex-flow: column wrap;
+    text-align: start;
+    font-size: 25px;
+    color: cornflowerblue;
+} 
+
+.FAQ-body li {
+    white-space: nowrap;
+    overflow: hidden;
+    transition: color 0.3s, box-shadow 0.3s, height 0.3s;
+    margin-bottom: 10px;
+    /* border-left-style: solid; 
+    border-color: gray;
+    border-width: 2px; */
+    display: flex;
+    align-items: center;
+    width: 680px;
+    height: 80px;
+    color: gray;
+    
+} 
+
+.FAQ-body li:hover {
+    background-color: rgba(0, 100, 100, 0.7);
+    margin-bottom: 10px;
+    box-shadow: 10px 10px;
+} 
+
+.question:hover {
+    color:red;
+    border-color: red;
+} 
+
+.answer:hover {
+    white-space: normal !important;
+    height: 200px;
+    color:green;
+    border-color: green;
+} 
+
+.henry {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    z-index: 100;
+}
+
+.henry img {
+    width: 1%;
+}
+
+.snark {
+    width: 100%;
+    top: 2110px;
+    position: absolute;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    z-index: 100;
+    
+}
+
+.snark img {
+    position: absolute;
+    padding-bottom: 73px;
+    padding-left: 65px;
+    rotate: 90deg;
+    width: 2%;
+}

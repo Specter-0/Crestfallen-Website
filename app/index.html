@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Crestfallen </title>
+
+    <link id="favicon" rel="shortcut icon" type="image/png"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <div style="width: 100%; height: 100%; display: flex; align-items: center;">
+        <img class="Crestfallen" onclick="load_index()" src="../icons/GameName.png"> </img>
+      </div>
+      <ul>
+        <li onclick="load_about()"> About </li>
+        <li onclick="load_FAQ()"> FAQ </li>      
+        <li> <a href="https://www.wikihow.com/Die-in-Minecraft" style="text-decoration: none;"> Wiki </a> </li>
+        <li onclick="load_patch_notes()"> Patch Notes </li>  
+        <li onclick="load_credits()"> Credits </li>
+        <li onclick="load_shop()"> Shop </li>
+        <li onclick="window.location.href='./preindex.html'"> Test (remove) </li>
+        <li> 
+          <a href="https://www.facebook.com/olavulf.hryszkiewicz"> 
+            <img style="width: 45px;" src="../icons/facebook.png" alt="facebook"> 
+          </a> 
+        </li>
+        <li> 
+          <a href="https://twitter.com/realDonaldTrump"> 
+            <img style="width: 45px;" src="../icons/twitter.png" alt="facebook"> 
+          </a> 
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <img class="BgImage" src="../images/sunnylandBg.png"></img>
+    </div>
+
+    <div class="Video">
+      <video src="../videos/deadCellsBg.mp4" controls autoplay muted loop poster="https://dead-cells.com/img/bossFightPreview.jpg"></video>
+    </div>
+
+    <div class="buyButton">
+      <div class="bigButton" onclick="levelUp('button')"> 
+          <a href="../game/CrestFallen.zip" download="Crestfallen" onmouseover="change_dwn_img(true)" onmouseleave="change_dwn_img(false)" onclick="intent_dwn_text()">
+            <img id="dwn_button_img" src="../assets/shop_ui_buy_button.png" alt="Download"> 
+            <p id="dwn_button_text"> Download </p>
+          </a>
+      </div>
+    </div>
+
+    <div class="info-title" style="top: 850px; right: 215px;">
+      <h1> What is Crestfallen </h1>
+    </div>
+
+    <div class="info-body">
+      <p> 
+        "Crestfallen" is an immersive 2D pixel game that takes players 
+        on an emotional journey through a beautifully crafted world. 
+        Set in a mysterious and atmospheric fantasy realm, 
+        the game features stunning pixel art graphics and a captivating 
+        soundtrack that enhances the overall experience. 
+        <br>
+        <br>
+        The protagonist of Crestfallen is our young hero who 
+        embarks on a perilous quest to restore hope and bring 
+        light back to a land shrouded in darkness. 
+        The game's narrative focuses on themes of loss, redemption, 
+        and the power of determination in the face of adversity.
+      </p>
+      <ul>
+        <li>
+            <strong> Challenging: </strong>
+            The game presents a significant level of difficulty,
+            requiring players to learn attack patterns
+            and demonstrate precise timing and skill to overcome the obstacles.
+        </li>
+        <li>
+            <strong> Souls-like combat: </strong>
+            Pattern-based bosses and minions, weapons and 
+            spells with unique gameplay. Roll roll roll your 
+            boat gently down the stream...
+        </li>
+        <li> 
+          <video autobuffer autoplay loop muted poster="https://dead-cells.com/img/bossFightPreview.jpg">
+            <source src="https://dead-cells.com/video/bossFight.mp4" type="video/mp4">
+            <source src="https://dead-cells.com/video/bossFight.webm" type="video/webm">
+          </video>
+        </li>
+        <li>
+            <strong> Dynamic </strong>
+            The gameplay features a mix of fast-paced platforming sequences, 
+            intense boss battles, and open-ended exploration. 
+            you can expect varied challenges and constantly 
+            evolving gameplay mechanics
+        </li>
+        <li>
+            <strong>Exploration:</strong>
+            Secret rooms, hidden passages, charming landscapes. A fine place for a holiday.  
+            <br>
+            <br>
+            <br>
+        </li>
+        <li>
+          <video autobuffer="autobuffer" autoplay="autoplay" loop="loop" muted="muted" poster="https://dead-cells.com/img/roofPreview.jpg">
+            <source src="https://dead-cells.com/video/roof.mp4" type="video/mp4">
+            <source src="https://dead-cells.com/video/roof.webm" type="video/webm">
+          </video>
+        </li>      
+      </ul>
+    </div>
+
+    <div class="info-title" style="top: 2100px; right: 620px;">
+      <h1> FAQ </h1>
+    </div>
+
+    <div class="FAQ-body">
+      <ul>
+        <li class="question">
+          <h1>
+            Q. 
+          </h1>
+          <p>
+            What is the objective of the game?
+          </p>
+        </li> 
+        <li class="answer">
+          <h1>
+            A. 
+          </h1>
+          <p>
+            The objective of the game is to navigate through various levels, 
+            defeat challenging bosses, and explore &nbsp the game world 
+            to uncover secrets and collect rewards.
+          </p>
+        </li>
+      </ul>
+      <ul>
+        <li class="question">
+          <h1>
+            Q. 
+          </h1>
+          <p>
+            Can I upgrade my character's abilities?
+          </p>
+        </li> 
+        <li class="answer">
+          <h1>
+            A. 
+          </h1> 
+          <p>
+            Yes, as you progress through the game and defeat bosses,
+            you may earn experience points or collect special items 
+            that can be used to upgrade your character's abilities, 
+            such as increased health, new attacks, or improved mobility.
+          </p>
+        </li>
+      </ul>
+      <ul>
+        <li class="question">
+          <h1>
+            Q. 
+          </h1>
+          <p>
+            Are there hidden areas or secrets to discover?
+          </p>
+        </li> 
+        <li class="answer">
+          <h1>
+            A. 
+          </h1>
+          <p>
+            Yes, exploration-focused games often contain hidden areas, 
+            secret passages, or collectibles for players to discover. 
+            These secrets may reward you with extra health, power-ups, 
+            or unlock additional content.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="flip-box toTop">
+      <div class="flip-box-front" id="flip_box">
+        <span id="up_triangle" onclick="to_top()"></span>
+      </div>
+      <div class="flip-box-back">
+        <span id="up_triangle" onclick="to_top()"></span>
+      </div>
+    </div>
+
+    <div class="henry">
+      <img onclick="levelUp('Henry')" class="levelUp" data="Henry" src="../images/henry.gif" alt="henry">
+    </div>
+
+    <div class="snark">
+      <img onclick="levelUp('Snark')" class="levelUp" data="Snark" src="../images/snark.gif" alt="Snark">
+    </div>
+
+    <footer>
+      <ul>
+        <li>
+          <ul class="credits">
+            <li><strong> Credits </strong></li>
+            <li onclick="levelUp('Specter')" class="levelUp" data="Specter"> Specter </li>
+            <li> Softensavo </li>
+            <li> Hugs_for_drugs </li>
+            <li> Gripfix </li>
+            <li> Olav </li>
+          </ul>
+        </li>
+        <li>
+          <img src="../icons/logo.png" alt="Crestfallen" style="width: 600px;" id="GameIconFooter">
+        </li>
+        <li>
+          <ul class="credits">
+            <li><strong> Level </strong></li>
+            <li> <img id="level_show" alt=" level" style="width: 100px;"> </li>
+          </ul>
+        </li>
+      </ul>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

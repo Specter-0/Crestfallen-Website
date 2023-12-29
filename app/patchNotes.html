@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Crestfallen Patch Notes </title>
+
+    <link id="favicon" rel="shortcut icon" type="image/png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylePatchNotes.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <div style="width: 100%; height: 100%; display: flex; align-items: center;">
+        <img class="Crestfallen" onclick="load_index()" src="../icons/GameName.png"> </img>
+      </div>
+      <ul>
+        <li onclick="load_index()"> Home </li>
+        <li onclick="show_create_note()"> New note </li>
+      </ul>
+    </div>
+
+    <div class="info-title">
+      <h1> Patch Notes (WIP) </h1>
+    </div>
+
+    <div class="notes-body">
+      <ul id="ul-contain">
+        <li onclick="openUp(this)">
+          <h1 class="notes-h1">
+            Patch Note Version 1.1.1: <br> the great beyond
+          </h1>
+          <div class="content">
+            <p> 
+              Addressed an issue where the game would crash when attempting to load a saved game in certain situations. <br> <br>
+              Resolved a problem where audio would sometimes cut out unexpectedly during gameplay. <br> <br>
+              Optimized memory usage, resulting in improved overall performance and reduced instances of lag. <br> <br>
+              Enhanced the game's collision detection system, ensuring more accurate interactions between objects. <br> <br>
+              Adjusted the difficulty curve in certain levels to provide a more balanced gameplay experience. <br> <br>
+              Fixed a visual glitch that caused flickering textures on certain platforms. <br> <br>
+              Tweaked the camera movement for smoother tracking of the player character. <br> <br>
+            </p>
+            <video src="../videos/deadCellsBg.mp4" style="width: 400px;" autoplay muted></video>
+          </div>
+        </li> 
+        <li onclick="openUp(this)">
+          <h1 class="notes-h1">
+            Patch Note Version 1.0.9: <br> the little help update
+          </h1>
+          <div class="content">
+            <p> 
+              Increased the drop rate of health pickups to provide better support for players during challenging sections. <br> <br>
+              Modified the behavior of enemy AI to reduce instances of unfair attacks. <br> <br>
+              Adjusted the timing of certain platforming elements to make them more forgiving and accessible to players. <br> <br>
+              Increased the duration of invincibility frames after taking damage, allowing players more time to recover. <br> <br>
+              Improved the responsiveness of controls for more precise movement and action execution. <br> <br>
+            </p>
+            <video src="../videos/SunnyLand.mp4" style="width: 700px;" autoplay muted></video>
+          </div>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="createNoteDiv" id="createNoteDiv">
+      <div class="createNote">
+        <form>
+          <input type="text" placeholder="Title" name="Title">
+          <select oninput="check_mode(this, this.parentElement)">
+            <option value="Line"> Line </option>
+            <option value="Image"> Image </option>
+            <option value="Video"> Video </option>
+          </select> <br> <br>
+        </form>
+        <button onclick="build_note()"> Build Note </button>
+        <p> Build </p>
+        <div id="toBeAdded"></div>
+      </div>
+    </div>
+    
+    <script src="./scriptPatchNotes.js"></script>
+  </body>
+</html>

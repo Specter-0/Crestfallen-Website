@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #42455a;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+} 
+
+.menu ul {
+    margin: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu ul li {
+    list-style: none;
+    cursor: pointer;
+    margin: 0 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.active:hover {
+    mix-blend-mode: difference;
+    color: #19dafa !important;
+}
+
+.banner {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    top: 38%; 
+}
+
+.bgGradient {
+    background-image: linear-gradient(rgba(160, 60, 60, 0), rgba(160, 60, 60, 0.5));
+}
+
+.blend {
+    mix-blend-mode: difference;
+    z-index: 5;
+}
+
+.appText {
+    width: 70%;
+    text-align: center;
+    z-index: -1;
+}
+
+.appText h1 {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif !important;
+    position: relative;    
+    color: white;
+}
+
+.appText p {
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+
+.deadCellsBg {
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -10;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Crestfallen Credits </title>
+
+    <link id="favicon" rel="shortcut icon" type="image/png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleShop.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <div style="width: 100%; height: 100%; display: flex; align-items: center;">
+        <img class="Crestfallen" onclick="load_index()" src="../icons/GameName.png" style="cursor: pointer;"> </img>
+      </div>
+      <ul>
+        <li onclick="load_index()"> Home </li>
+      </ul>
+    </div>
+
+    <div class="shopPage" id="shop">
+        <img src="../assets/shop-ui_clean.png" alt="bg" style="width: 1000px;">
+        <ul class="card">
+          <li> 
+            <img class="cards" src="../assets/shop_ui_card.png" alt="snark"> 
+            <img src="" class="icons"> 
+          </li>
+          <li> 
+            <img class="cards" src="../assets/shop_ui_card.png" alt="snark"> 
+            <img src="" class="icons"> 
+          </li>
+          <li> 
+            <img class="cards" src="../assets/shop_ui_card.png" alt="snark"> 
+            <img src="" class="icons"> 
+          </li>
+        </ul>
+        <ul class="dscr">
+          <li> 
+            <img src="../assets/shop_ui_dscr.png" alt="snark"> 
+            <h1></h1>
+            <p></p>
+            <div>
+              <img src="../icons/coin.png" alt="coin">
+              <br>
+              <h2></h2>
+            </div>
+          </li>
+          <li> 
+            <img src="../assets/shop_ui_dscr.png" alt="snark"> 
+            <h1></h1>
+            <p></p>
+            <div>
+              <img src="../icons/coin.png" alt="coin">
+              <br>
+              <h2></h2>
+            </div>
+          </li>
+          <li> 
+            <img src="../assets/shop_ui_dscr.png" alt="snark">
+            <h1></h1> 
+            <p></p>
+            <div>
+              <img src="../icons/coin.png" alt="coin">
+              <br>
+              <h2></h2>
+            </div>
+          </li>
+        </ul>
+        <ul class="buy">
+          <li onmouseover="change_dwn_img(true, this)" onmouseleave="change_dwn_img(false, this)" onclick="intent_dwn_text(this)"> > 
+            <img src="../assets/shop_ui_buy_button.png" alt="snark"> 
+            <h1 data="0"> Buy </h1> 
+          </li>
+          <li onmouseover="change_dwn_img(true, this)" onmouseleave="change_dwn_img(false, this)" onclick="intent_dwn_text(this)"> > 
+            <img src="../assets/shop_ui_buy_button.png" alt="snark"> 
+            <h1 data="1"> Buy </h1> 
+          </li>
+          <li onmouseover="change_dwn_img(true, this)" onmouseleave="change_dwn_img(false, this)" onclick="intent_dwn_text(this)">
+            <img src="../assets/shop_ui_buy_button.png" alt="snark"> 
+            <h1 data="2"> Buy </h1> 
+          </li>
+        </ul>
+        <ul style="flex-flow: row; 
+                  width: 60%;
+                  justify-content: center;
+                  list-style: none; 
+                  position: absolute; 
+                  column-count: 1; 
+                  font-size: 40px;
+                  margin: 0px 0px 0px 0px;
+                  padding: 0px 0px 0px 0px; 
+                  top: 650px;"
+                  >
+          <li style="display: flex; justify-content: center;">  
+            <h4 onclick="refresh(); set_items()" style="cursor: pointer; width: 20%;"> Refresh </h1>
+          </li>
+        </ul>
+    </div>
+
+    <script src="./scriptShop.js"></script>
+  </body>
+</html>

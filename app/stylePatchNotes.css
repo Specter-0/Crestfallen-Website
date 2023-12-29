@@ -1,0 +1,162 @@
+body {
+    min-height: 200vh !important;
+}
+
+.header li{
+    padding-right: 30px !important;
+}
+
+.info-title {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-title h1 {
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 100px;
+    color:rgb(0, 100, 100);
+}
+
+.info-title h1::before {
+    background: linear-gradient(to right, rgba(164,2,57,0), rgba(0, 100, 100, 0.5));
+    right: 0.25em;
+    margin-left: -50%;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+    line-height: 4.5em;
+    font-weight: initial;
+}
+
+.info-title h1::after {
+    background: linear-gradient(to left, rgba(164,2,57,0), rgba(0, 100, 100, 0.5));
+    left: 0.25em;
+    margin-right: -50%;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+    line-height: 4.5em;
+    font-weight: initial;
+}
+
+.notes-body {
+    width: 100%;
+    top: 180px;
+    position: absolute;
+    font-family: Raleway;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.notes-body h1 {
+    margin: 10px;
+    font-size: 50px;
+} 
+
+.notes-body ul {
+    padding: 0px 0px 0px 0px;
+    column-count: 1;
+    list-style: none;
+} 
+
+.notes-body li {
+    margin: 120px;
+    overflow: hidden;
+    width: auto;
+    transition: color 0.3s, box-shadow 0.3s, height 0.3s;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    color: gray;
+} 
+
+.notes-body li:hover {
+    background-color: rgba(0, 100, 100, 0.7);
+    box-shadow: 0px 0px 0px 10px;
+    cursor: pointer;
+} 
+
+.notes-body h1:hover {
+    color:red;
+    border-color: red;
+} 
+
+.content {
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+.content p {
+    font-style: normal;
+}
+
+.createNoteButton {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+}
+
+.createNoteDiv {
+    visibility: "hidden";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toBeAdded {
+    text-align: center;
+    overflow: scroll; 
+    width: 300px;
+    height: 150px;
+}
+
+.createNote {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 100, 100, 0.9);
+}
+
+.createNote form {
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.createNote p {
+    height: 10px;
+}
+
+.createNote select {
+    margin: 10px;
+}
+
+.createNote input {
+    border-radius: 2px;
+    background-color: rgba(0, 100, 100, 1);
+}
+

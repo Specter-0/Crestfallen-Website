@@ -1,0 +1,143 @@
+body {
+    min-height: 100vh;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px;
+    z-index: 50;
+    cursor: auto;
+}
+
+.shopPage {
+    z-index: 0;
+    flex-flow: column;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Pixel;
+}
+
+.dscr {
+    flex-flow: row; 
+    width: 60%;
+    justify-content: space-between;
+    list-style: none; 
+    position: absolute; 
+    column-count: 3; 
+    padding: 0px 0px 0px 0px; 
+    top: 270px;
+}
+
+.dscr li {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.dscr li img{
+    width: 280px; 
+    height: 300px; 
+    margin: 0px -30px;
+}
+
+.dscr li h1 {
+    white-space: nowrap;
+    position: absolute;
+    margin: 15px;
+    font-size: 26px;
+}
+
+.dscr li h2 {
+    font-size: 30px;
+}
+
+.dscr li p {
+    text-overflow: ellipsis;
+    font-size: 20px;
+    text-align: start;
+    line-height: 20px;
+    width: 25%;
+    top: 50px;
+    position: absolute;
+}
+
+.dscr li div {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    width: 270px;
+    outline: 10px red;
+    top: 230px;
+    position: absolute;
+}
+
+.dscr li div img {
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.card {
+    flex-flow: row; 
+    width: 60%;
+    justify-content: space-between;
+    list-style: none; 
+    position: absolute; 
+    column-count: 3; 
+    padding: 0px 0px 0px 0px; 
+    top: 93px;
+}
+
+.card li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    width: 260px; 
+    margin: 0px -30px;
+}
+
+.icons {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    width: 100px;
+    position: absolute;
+}
+
+.buy {
+    flex-flow: row; 
+    width: 60%;
+    justify-content: space-between;
+    list-style: none; 
+    position: absolute; 
+    column-count: 3; 
+    padding: 0px 0px 0px 0px; 
+    top: 590px;
+}
+
+.buy li {
+    cursor: pointer;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.buy li img{
+    width: 270px; 
+    height: 100%; 
+    margin: 0px -30px;
+}
+
+.buy li h1{
+    position: absolute;
+    margin: 11px;
+}

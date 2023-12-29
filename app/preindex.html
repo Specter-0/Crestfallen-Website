@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Crestfallen </title>
+
+    <link id="favicon" rel="shortcut icon" type="image/png"/>
+  </head>
+  <body>
+    
+    <div>
+        <video src="../icons/IconVideo.mp4" autoplay muted 
+        onended =
+        "
+        setTimeout(() => {
+            window.location.href='./index.html'
+        }, 500)
+        "
+        >
+
+        </video>
+    </div>
+
+    <style>
+        body {
+            background-color: black;
+        }
+        div {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        video {
+            width: 1430px;
+        }
+    </style>
+    <script src="script.js"></script>
+  </body>
+</html>

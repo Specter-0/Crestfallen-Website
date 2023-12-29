@@ -1,0 +1,389 @@
+{
+    "items": [
+        [
+            "shield", 
+            "Once per map protects you from one hit and then breaks",
+            "4"
+        ], 
+        [
+            "arrow", 
+            "An arrow",
+            "1"
+        ],
+        [
+            "soldOut", 
+            ":/",
+            "X"
+        ], 
+        [
+            "Zweihander", 
+            "The Zweihander is an extraordinary and legendary sword known for its imposing size",
+            "40"
+        ], 
+        [
+            "straight Sword", 
+            "The straight sword is a sleek and agile weapon designed for swift and precise strikes in close-quarters combat.",
+            "5"
+        ], 
+        [
+            "knighs Broadsword", 
+            "A knight's broadsword is a formidable weapon, characterized by its wide blade, ideal for delivering powerful strikes.",
+            "7"
+        ], 
+        [
+            "katana", 
+            "A katana is a curved, single-edged sword renowned for its elegance and deadly cutting ability.",
+            "6"
+        ], 
+        [
+            "cutlass", 
+            "A cutlass is a short, curved sword known for its curvature.",
+            "4"
+        ], 
+        [
+            "rapier", 
+            "a graceful duelist's weapon, swift and deadly in skilled hands",
+            "6"
+        ], 
+        [
+            "dualists Sword", 
+            "a double-edged masterpiece for the master of the duel",
+            "9"
+        ], 
+        [
+            "defenders Light", 
+            "A radiant blade shining with courage, warding off darkness and illuminating the path to victory",
+            "14"
+        ], 
+        [
+            "queensbane", 
+            "a regal blade, adorned with gold, striking fear into the hearts of monarchs",
+            "25"
+        ], 
+        [
+            "spear", 
+            " a versatile weapon, reaching out with deadly precision from a warrior's grasp",
+            "3"
+        ], 
+        [
+            "guardsmans Spear", 
+            "a formidable weapon, honed for protection and swift counterattacks",
+            "5"
+        ], 
+        [
+            "touche", 
+            "a deadly spear, perfect for quick strikes in crowds",
+            "8"
+        ], 
+        [
+            "dragstone", 
+            "crafted from a feeble dragstone, offers limited impact and blunt force",
+            "1"
+        ], 
+        [
+            "axe", 
+            "a modest, entry-level weapon with limited cutting power, ideal for novice adventurers",
+            "2"
+        ], 
+        [
+            "Labrys", 
+            "double-headed battle-axe, embodying raw strength and ferocity in every swing",
+            "4"
+        ], 
+        [
+            "tomahawk", 
+            "a versatile hand axe, blending the elegance of tradition with the brutality of battle",
+            "7"
+        ], 
+        [
+            "footbreaker", 
+            "Guaranteed to make your foes dance like clumsy ballerinas",
+            "5"
+        ], 
+        [
+            "basic Bow", 
+            "Basic Bow: Perfect for those who want to be an archer but can't quite hit the broad side of a barn yet",
+            "3"
+        ], 
+        [
+            "pronged highshot", 
+            "Take your archery skills to new heights with this bow that launches arrows straight to the moon",
+            "7"
+        ], 
+        [
+            "elfsbow", 
+            "unleashes arrows imbued with the power of air, striking foes with lightning speed",
+            "10"
+        ], 
+        [
+            "marksmans ice Bow", 
+            "launching arrows that freeze foes in their tracks, cool down bro!",
+            "15"
+        ], 
+        [
+            "advanced Walking Stick", 
+            "A magical wand in disguise, this walking stick grants its wielder the power to cast spells",
+            "7"
+        ], 
+        [
+            "druids Wand", 
+            " wooden conduit of nature's magic, channeling the essence of the earth and empowering the druid's spells",
+            "8"
+        ], 
+        [
+            "Devils Wand", 
+            "Harness the infernal forces with this wickedly powerful wand, perfect for those who like to play with fire...and chaos",
+            "10"
+        ], 
+        [
+            "moon Spears Battle Wand", 
+            "Unleash the celestial fury of the moon with this versatile wand, carries the elegance of moonlight",
+            "13"
+        ], 
+        [
+            "wood Sheild", 
+            "A trusty companion crafted from sturdy timber, offering basic protection against foes",
+            "4"
+        ], 
+        [
+            "reinforced Shield", 
+            "A fortress on your arm, this sturdy shield laughs in the face of enemy attacks.",
+            "6"
+        ], 
+        [
+            "bowl", 
+            "A humble vessel for nourishment, it's also the perfect tool for stylishly bonking enemies on the head",
+            "1M"
+        ], 
+        [
+            "church Crusader Shield", 
+            "A sacred guardian, this shield bears the emblem of the church, providing unwavering defense against the forces of darkness",
+            "14"
+        ], 
+        [
+            "small health Potion", 
+            "A tiny elixir of rejuvenation, this potion mends wounds and revitalizes adventurers",
+            "3"
+        ], 
+        [
+            "Large health potion", 
+            "Quench your adventurer's thirst with this magical concoction, instantly restoring all vitality",
+            "5"
+        ], 
+        [
+            "small mama Potion", 
+            "When you need a little pick-me-up, this magical elixir boosts your spirit",
+            "3"
+        ], 
+        [
+            "large Mana Potion", 
+            "Tap into the arcane energies with this potent elixir, refilling your magical reserves to the top",
+            "5.1"
+        ], 
+        [
+            "mana amulete", 
+            "Adorn yourself with this enchanted amulet, it acts as a conduit for magical energies, granting a greater pool of mana",
+            "10"
+        ], 
+        [
+            "star of bob", 
+            "An artifact with a mind of its own, this celestial gem bestows a random assortment of comical and unpredictable effects upon its bearer.",
+            "15"
+        ], 
+        [
+            "tigertooth tooth", 
+            "A fearsome fang extracted from a mighty tiger, this tooth is said to grant its bearer enhanced senses, agility, and a ferocious bite",
+            "5"
+        ], 
+        [
+            "skull of accursed villager", 
+            "A grim relic exuding dark energy, this skull holds the tragic tale of a villager cursed with forbidden might. Wielding it harnesses their power, but at what cost",
+            "25"
+        ], 
+        [
+            "wisdom of Heka", 
+            "Bestowed by the divine god Heka, this talisman bestows insight and knowledge upon its possessor,",
+            "7"
+        ], 
+        [
+            "wisdom of Eros", 
+            "Bestowed by the divine god Eros, this enchanting artifact radiates profound insights into matters of the heart",
+            "7"
+        ], 
+        [
+            "parchment", 
+            "A humble sheet of ancient parchment, awaiting your quill",
+            "3"
+        ], 
+        [
+            "carving stone", 
+            "A solid block of raw potential, awaiting the skilled hands of a master sculptor to shape it into magnificent works of art or intricate symbols of power.",
+            "5"
+        ], 
+        [
+            "gold ring", 
+            "A gleaming band of precious metal, adorning your finger with elegance and a touch of luxury, Perhaps it holds a hidden enchantment?",
+            "8"
+        ], 
+        [
+            "mana ring", 
+            "A shimmering ring infused with arcane energies, it enhances your mana regeneration and empowers your spellcasting",
+            "10"
+        ], 
+        [
+            "health ring", 
+            "Adorn your finger with this enchanted ring, pulsing with revitalizing energy accelerating your natural healing",
+            "10"
+        ], 
+        [
+            "luck ring", 
+            "A shimmering band believed to hold the favor of fortune itself. Wear it and see the dice roll in your favor",
+            "10"
+        ], 
+        [
+            "knights helmet", 
+            "A gleaming steel guardian for your noble noggin, providing both protection and a sense of chivalrous style on the battlefield",
+            "6"
+        ], 
+        [
+            "rangers helmet", 
+            "Crafted from nature's bounty, this sturdy headgear blends seamlessly with the wilderness, granting the keen senses of a skilled tracker",
+            "8"
+        ], 
+        [
+            "crusaders helmet", 
+            "An imposing helm adorned with religious symbols, channeling the strength and fervor of crusaders",
+            "4"
+        ], 
+        [
+            "Byzantine helmet", 
+            "A majestic headpiece inspired by the Byzantine Empire, blending elegance and formidable defense, fit for a warrior of historical grandeur",
+            "10"
+        ], 
+        [
+            "leather shoes", 
+            "Reliable footwear crafted from supple leather, offering comfort and agility",
+            "2"
+        ], 
+        [
+            "chain greaves", 
+            "chain links woven together, safeguarding your lower legs with sturdy protection while allowing swift movement on the battlefield",
+            "4"
+        ], 
+        [
+            "gold greaves", 
+            "Gilded leg armor that shimmers with opulence, offering both protection and a touch of regal flair as you stride through treacherous terrain",
+            "9"
+        ], 
+        [
+            "bards brown silk shoes", 
+            "These exquisite footwear, woven from the finest silk, empower bards with effortless grace, allowing their feet to dance",
+            "3"
+        ], 
+        [
+            "wiches hat", 
+            "A pointy and iconic accessory worn by witches, imbued with an aura of mystique",
+            "1"
+        ], 
+        [
+            "necromancer's hood", 
+            "A dark and ominous hood, favored by practitioners of the forbidden arts, emanating an aura of death",
+            "5"
+        ], 
+        [
+            "bing chilling", 
+            "ice cream?",
+            "free for you comrad"
+        ], 
+        [
+            "commoners cap", 
+            "A simple and practical headwear worn by everyday folk, offering modest protection from the elements",
+            "1"
+        ], 
+        [
+            "beard", 
+            "A majestic mane of facial hair, bestowing an air of wisdom, ruggedness, and perhaps a few crumbs from yesterday's meal.",
+            "2"
+        ], 
+        [
+            "basic armor", 
+            "Simple yet reliable, this armor provides essential protection on your journey, shielding you from harm and keeping you ready for whatever lies ahead",
+            "7"
+        ], 
+        [
+            "cavalry armor", 
+            "The epitome of protection and mobility, this finely-crafted armor ensures the safety of mounted warriors",
+            "8"
+        ], 
+        [
+            "kings armor", 
+            "Majestic and regal, this suit of armor is adorned with intricate designs and forged with the finest craftsmanship, providing unparalleled drip and protection for a ruler.",
+            "35"
+        ], 
+        [
+            "usless gloves", 
+            "These gloves offer no protection or practical use whatsoever. They are purely decorative and serve as a reminder to choose your gear wisely",
+            "1"
+        ], 
+        [
+            "leather gloves", 
+            "Trusty hand protection, perfect for adventures and keeping your fingers warm while handling swords, treasures, and the occasional sticky situation.",
+            "2"
+        ], 
+        [
+            "mixed armor gloves", 
+            "A unique pair of gloves combining various materials, offering a blend of protection, flexibility, and a distinct fashion statement for the eclectic adventurer.",
+            "3"
+        ], 
+        [
+            "kinghts gloves", 
+            "Gauntlets forged with care, these sturdy gloves offer a firm grip on your weapon, protecting your hands",
+            "3"
+        ], 
+        [
+            "apple", 
+            "A simple fruit, both a delicious snack and a humble projectile for throwing at enemies when you're feeling a bit cheeky",
+            "1"
+        ], 
+        [
+            "cheese", 
+            "The epitome of dairy goodness, a delicious and versatile sustenance that can be enjoyed on its own or used to lure hungry creatures.",
+            "3"
+        ], 
+        [
+            "ground splattered egg", 
+            "A regrettable mishap turned weapon, this egg offers a messy and unexpectedly slippery surprise to unsuspecting foes. Handle with care",
+            "1"
+        ], 
+        [
+            "pie", 
+            "A delectable treat, capable of magically restoring one's hunger and providing a momentary distraction from the perils of adventuring",
+            "2"
+        ], 
+        [
+            "crypt key", 
+            "A weathered and mysterious key, whispered to unlock the secrets of long-forgotten crypts and grant access to untold treasures or lurking horrors",
+            "15"
+        ], 
+        [
+            "watchtower key", 
+            "Unlock the towering heights of a watchtower, This key grants access to a vigilant watchtower, breaks on use.",
+            "13"
+        ], 
+        [
+            "lit candal", 
+            "A flickering source of illumination, providing a comforting glow in the darkest of corners",
+            "1"
+        ], 
+        [
+            "gilded Chalice", 
+            "A resplendent vessel adorned with intricate gold filigree, radiating a regal aura. It holds the power to amplify potions and elixirs, turning water into health",
+            "17"
+        ], 
+        [
+            "empty green tomb", 
+            "its empty",
+            "1"
+        ]
+    ]
+}
